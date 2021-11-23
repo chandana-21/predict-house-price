@@ -29,7 +29,7 @@ def load_saved_artifacts():
 
     with open("/Users/chandana/Documents/GitHub/predict-house-price/server/artifacts/columns.json", "r") as f:
         __data_columns = json.load(f)['data_columns']
-        __locations = __data_columns[3:] 
+        __locations = __data_columns[4:] 
 
     global __model
     if __model is None:
