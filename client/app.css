@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import 'https://fonts.googleapis.com/css?family=Righteous';
 
 .switch-field {
 	display: flex;
@@ -13,6 +14,21 @@
 	width: 1px;
 	border: 0;
 	overflow: hidden;
+}
+
+h1{
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: largest;
+    font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+    font-weight: 1000;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+.container{
+    padding-top: 20px;
 }
 
 .switch-field label {
@@ -33,7 +49,7 @@
 }
 
 .switch-field input:checked + label {
-	background-color: #a5dc86;
+	background-color: coral;
 	box-shadow: none;
 }
 
@@ -58,6 +74,8 @@
 h2 {
 	font-size: 18px;
 	margin-bottom: 8px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
 }
 .area{
   font-family: "Roboto", sans-serif;
@@ -88,7 +106,7 @@ h2 {
 }
 
 .submit{
-  background: #a5dc86;
+  background: coral;
   width: 76%;
   border: 0;
   margin: 25px 0 10px;
@@ -100,7 +118,7 @@ h2 {
 }
 
 .result{
-		background: #dcd686;
+		background: red;
 		width: 76%;
 		border: 0;
 		margin: 25px 0 10px;
@@ -111,16 +129,18 @@ h2 {
 }
 
 .img {
-  background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-	background-repeat: no-repeat;
+  
+  background: url('house.jpg');
+  background-color: black;
+  background-repeat: no-repeat;
   background-size: auto;
   background-size:100% 100%;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(15px);
-  position: fixed;
+  /* -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(5px); */
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -130,4 +150,5 @@ h2 {
 
 body, html {
   height: 100%;
+  
 }
