@@ -30,7 +30,9 @@ h1{
 .container{
     padding-top: 20px;
 }
-
+button{
+	cursor: pointer;
+}
 .switch-field label {
 	background-color: #e4e4e4;
 	color: rgba(0, 0, 0, 0.6);
