@@ -1,4 +1,4 @@
-# ML House Cost Prediction
+# ML House Cost Prediction WEBAPP
 
 This is a web-app which predicts the cost of a house from Bengaluru after taking Area(sqft), BHK, no. of Baths and location as inputs from the user.</br>
 The screenshot of the prototype:<br>
